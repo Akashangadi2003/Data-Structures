@@ -14,7 +14,7 @@ void generate_input_file(char* filename, int X) {
 
 
 void read_input_file(char* filename, int X, int* arr) {
-    FILE* file = fopen("joshi.txt", "r");
+    FILE* file = fopen("ANGADI.txt", "r");
     for (int i = 0; i < X; i++) {
         fscanf(file, "%d", &arr[i]);
     }
